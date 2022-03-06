@@ -1,2 +1,4 @@
 # Basic-DDoS-Script
-A simple script that can be used to temporarily take down a service
+
+This script will continuosly reconnect to a specified ip address and port number; taking down the service in the proceess
+
